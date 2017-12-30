@@ -1,11 +1,14 @@
 
 /*
+ * https://projecteuler.net/problem=7 
  *
+ * 10001st prime
+ * Problem 7
  * By listing the first six prime numbers: 2, 3, 5, 7, 11, and 13, 
  * we can see that the 6th prime is 13.
  * What is the 10,001st prime number?
  * 
- * Answer: 104743
+ * Answer: ________  <== You fill in (you can check on Euler Project)
  */
 
 
@@ -35,12 +38,11 @@ public class Euler7 {
      */
     public static int euler7(int n) {
     
-        int cnt = 0;
         int p = 1;
-        while (cnt != n) {
-            if (isPrime(++p))
-                cnt++;
-        }
+    
+        // ToDo: Insert your code here
+        // You may want to use the function isPrime() below.
+        
         return p;
     }
     
@@ -50,8 +52,9 @@ public class Euler7 {
      * @return True if prime, false otherwise
      */
     public static boolean isPrime(long n) {
-        for (int ii=2; ii<=Math.sqrt(n) ; ++ii)
-            if (n%ii==0) return false;
+
+        // ToDo: Insert your code here
+
         return true;
     }
 
