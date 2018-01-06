@@ -36,13 +36,13 @@ public class Euler7 {
      * @return The n'th prime
      * 
      */
-    public static int euler7(int n) {
-    
+    public static int euler7(int nthPrime) {
+ 
         int p = 1;
-    
+
         // ToDo: Insert your code here
         // You may want to use the function isPrime() below.
-        
+
         return p;
     }
     
@@ -51,7 +51,7 @@ public class Euler7 {
      * @param n input number
      * @return True if prime, false otherwise
      */
-    public static boolean isPrime(long n) {
+    public static boolean isPrime(int n) {
 
         // ToDo: Insert your code here
 
